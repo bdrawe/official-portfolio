@@ -1,0 +1,40 @@
+:root{
+    --main-color: #cc3300;
+    --secondary-color: #49dbee;
+    --accent-color:#292929;
+    --white-color: #ffffff;
+    --primary-font: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.profilePic {
+    width: 30%;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 35px;
+}
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+a:hover {
+    color: var(--main-color);
+}
+
+.navActive {
+    color: var(--secondary-color);
+}
