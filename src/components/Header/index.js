@@ -12,6 +12,7 @@ function Header(props) {
 
     return (
         <header>
+        <h1>Hello! 👋 Welcome to my Portfolio</h1>
             <nav className="container">
                 <ul className="navBar">
                     {navItems.map((navItem) => (
